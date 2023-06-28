@@ -24,7 +24,7 @@
                 
             </nav>
             <div class="menu">
-                <a href=""><i class="fa-solid fa-bars"></i></a>
+                <a onclick="opennav()"><i class="fa-solid fa-bars"></i></a>
             </div>
             
         </header>
@@ -58,6 +58,52 @@
             </div>
         </footer>
     </div>
+    <div class="overlay">
+        <div>
+            <a onclick="closenav()"><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="">Home</a></li>
+                <li><a href="">Collection</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <script src="https://kit.fontawesome.com/6c74031093.js" crossorigin="anonymous"></script>
+    <script>
+        function opennav(){
+            document.querySelector(".overlay").style.display = "block";
+            bloquearScroll();
+        }
+
+        function closenav(){
+            document.querySelector(".overlay").style.display = "none";
+            desbloquearScroll();
+        }
+
+
+        function bloquearScroll() {
+        // Obtener el desplazamiento actual
+        var scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+
+        // Bloquear el desplazamiento estableciendo el desplazamiento actual como la posición fija
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollPosition}px`;
+        document.body.style.width = '100%';
+
+        }
+
+        function desbloquearScroll() {
+        // Obtener la posición superior (top) establecida anteriormente
+        var scrollPosition = parseInt(document.body.style.top, 10);
+
+        // Habilitar el desplazamiento eliminando la posición fija y restaurando el desplazamiento anterior
+        document.body.style.position = '';
+        document.body.style.top = '';
+        window.scrollTo(0, -scrollPosition);
+        }
+    </script>
 </body>
 </html>
