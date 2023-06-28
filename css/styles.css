@@ -107,6 +107,10 @@ i {
     width: 100%;
 }
 
+.overlay {
+    display: none;
+}
+
 /* .designedby {
     position: absolute;
     background-color: #1a1a1a;
