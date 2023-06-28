@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://interior-consultant-z9ng.onrender.com/">
+    <a target="_blank" href="https://interior-consultant-z9ng.onrender.com/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/ZviGgZxLw6h7q9gV7dyK">
+    <a target="_blank" href="https://devchallenges.io/solutions/ZviGgZxLw6h7q9gV7dyK">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a target="_blank" href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
   </h3>
