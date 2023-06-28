@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #150f0f;
+    color: #f2f2f2;
+}
+
+.container {
+    margin: 0 5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+nav ul li {
+    margin: 0 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.active {
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 3px;
+    font-weight: bold;
+}
+
+.logo {
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-text {
+    margin: 5rem 0;
+}
+
+.title {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    width: 90%;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.readmore {
+    margin: 3rem 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.readmore a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+i {
+    margin-right: 10px;
+    width: 10px;
+}
+
+.main-image {
+    position: relative;
+}
+
+.main-image img {
+    width: 100%;
+}
+
+.designedby {
+    position: absolute;
+    background-color: #1a1a1a;
+    width: 20rem;
+    bottom: -50px;
+    right: 50px;
+    padding: 15px 0;
+    padding-left: 30px;
+    box-shadow: #150f0f 0px 0px 10px;
+}
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+img.photo-autor  {
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.autor-info {
+    padding: 0 20px;
+}
+
+.autor-info h4 {
+    font-weight: 300;
+}
+
+.autor-info p{
+    font-size: 0.5rem;
+    color: #B1A7A7;
+    font-weight: 300;
+}
+
+.text-autor h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.credits a {
+    background: linear-gradient(45deg, #405DE6, #E4405F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
