@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://interior-consultant-z9ng.onrender.com/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/ZviGgZxLw6h7q9gV7dyK">
       Solution
     </a>
     <span> | </span>
@@ -51,6 +51,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - [HTML]
 - [CSS]
+- [JavaScript]
 
 ## Features
 
